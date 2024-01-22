@@ -21,8 +21,63 @@
     }
   }
 </script>
+
+<!-- manrope google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- CSS file link -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header class="container mx-auto">
+    <section class="my-12">
+      <div class="carousel w-full">
+        <!-- 1st slide
+        of banner -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute transform space-x-4 -translate-y-1/2 left-5 right-5 -bottom-6 p-8">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
+            <a href="#slide2" class="btn btn-circle  bg-black text-white border-none">❯</a>
+          </div>
+        </div> 
+        <!-- 2nd slide
+        of banner -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/slider2.jpg" class="w-full" />
+          <div class="absolute transform space-x-4 -translate-y-1/2 left-5 right-5 -bottom-6 p-8">
+            <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a> 
+            <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❯</a>
+          </div>
+        </div> 
+        <!-- 3rd slide
+        of banner -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/slider3.jpg" class="w-full" />
+          <div class="absolute transform space-x-4 -translate-y-1/2 left-5 right-5 -bottom-6 p-8">
+            <a href="#slide2" class="btn btn-circle  bg-black text-white border-none">❮</a> 
+            <a href="#slide4" class="btn btn-circle  bg-black text-white border-none">❯</a>
+          </div>
+        </div>
+        <!-- 4th slide
+        of banner --> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/slider4.jpg" class="w-full" />
+          <div class="absolute transform space-x-4 -translate-y-1/2 left-5 right-5 -bottom-6 p-8">
+            <a href="#slide3" class="btn btn-circle  bg-black text-white border-none">❮</a> 
+            <a href="#slide1" class="btn btn-circle  bg-black text-white border-none">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main class="container">
+
+  </main>
+  <footer>
+
+  </footer>
 </body>
 </html>
