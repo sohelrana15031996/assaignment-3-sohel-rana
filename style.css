@@ -1,3 +1,6 @@
 body{
   font-family: 'Manrope', sans-serif;
 }
+hr{
+  border: 1px dashed #13131833;
+}
