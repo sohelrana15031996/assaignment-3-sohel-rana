@@ -4,3 +4,8 @@ body{
 hr{
   border: 1px dashed #13131833;
 }
+
+.accordian_hr{
+  border: 1px solid #1313181A;
+  margin-top: 8px;
+}
